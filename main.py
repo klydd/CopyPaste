@@ -23,6 +23,7 @@ def letters_swap(buf):
             paste += i
 
     pyperclip.copy(paste)
+    sleep (2)
 
 ##print (inverted_letters)
 left_key = win32api.GetKeyState (0x25)
